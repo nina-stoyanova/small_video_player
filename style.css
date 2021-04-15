@@ -1,6 +1,8 @@
-body {
+* {
     border: 2px solid red;
-    height: 100vh;
+}
+
+body {
     margin: 0;
 }
 
@@ -16,16 +18,7 @@ body {
     width: 100%;
 }
 
-.btn-play {
+.buttons {
     display: flex;
     justify-content: space-evenly;
-}
-
-.btn-pause {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-button {
-    display: flex;
 }
